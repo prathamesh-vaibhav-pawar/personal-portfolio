@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+  <style>
+    body{
+    text-align: center;
+}
+.apps{
+    background: linear-gradient(white, black);
+}
+.underline{
+    width:100px;
+    height:5px;
+    background-color: gray;
+    margin:8px auto;
+}
+.underline:hover{
+    transform: scale(1.5);
+    transition: transform 1.0s;
+
+}
+.ap:hover{
+    transform: scale(1.5);
+    transition: transform 1.0s;
+}
+.games{
+    background: linear-gradient(black,white);
+}
+#myCarousel
+{
+    background-color: red;
+}
+
+  </style>
+    <section class = "apps">
+    <h1>Welcome to my Portfolio</h1><br><br>
+    <h2 class = "ap">My apps</h2>
+    <div class="underline"></div><br><br>
+    <span><iframe width = "340" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/3UZ8smpyevyIgb13qCJGCbuQqmFWJiCCKh_oGK-qjqM/embed"></iframe>&nbsp;&nbsp;
+    <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/bKPq9CH1osvOpTo1L9stAZZvrNfAV-FsZFAVzpQW9fI/embed"></iframe>
+    </section><br><br>
+
+    
+
+    <section class="games">
+        <h2 class = "ap">Games section</h2>
+    <div class="underline"></div><br><br>
+        <div id="c2" class="carousel slide">
+            <div class = "carousel-inner">
+                <div class = "item active">
+                  <a href="https://studio.code.org/projects/playlab/hZngn7cyQ_o5vA50KlKMOVeDEOtcolnQjMHELvkCzTI" target="_blank">
+                    <img src="https://studio.code.org/v3/files/hZngn7cyQ_o5vA50KlKMOVeDEOtcolnQjMHELvkCzTI/.metadata/thumbnail.png" alt ="game image">
+                </a><br><br>
+                  <p> penguin shooting game</p>
+                </div>
+                <div class = "item">
+                  <a href = "https://studio.code.org/projects/playlab/CEzArAWu8N2utXl7Ln1pH4vxkhSQR_blj9StRabOg5U" target ="_blank">
+                    <img src="https://studio.code.org/v3/files/CEzArAWu8N2utXl7Ln1pH4vxkhSQR_blj9StRabOg5U/.metadata/thumbnail.png" alt="game 2">
+                    
+                </a><br><br>
+                <p> monster defete</p>
+                </div>
+          
+              </div>
+              <a href="#c2" class = "left carousel-control" data-slide="prev">
+                <span class = "glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a href="#c2" class = "right carousel-control" data-slide="next">
+                <span class = "glyphicon glyphicon-chevron-right"></span>
+              </a>
+          
+          
+              </center>
+          
+            </div>
+          
+          
+        
+        </div>
+    </section>
+
+    
+    
+</body>
+</html>
